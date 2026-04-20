@@ -19,4 +19,5 @@ title = "Akram"
   bio = "Short technical write-ups and experiments."
   links = [
     { github = "https://github.com/akram" },
+    { linkedin = "https://www.linkedin.com/in/akrambenaissi/" },
   ]
