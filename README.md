@@ -1,14 +1,29 @@
 # akram.github.io
 
-Personal site and blog, built with [al-folio](https://github.com/alshedivat/al-folio) and deployed to GitHub Pages from the `gh-pages` branch via Actions.
+Personal site and blog, built with [Hugo](https://gohugo.io/) and the [Blowfish](https://blowfish.page/) theme.
 
-## Deploy notes
+## Deploy (GitHub Pages)
 
-1. Repo **Settings → Actions → General → Workflow permissions**: enable **Read and write**.
-2. Repo **Settings → Pages**: source **Deploy from a branch**, branch **`gh-pages`** (not `main`).
+1. **Settings → Actions → General → Workflow permissions:** enable **Read and write** (needed to push `gh-pages`).
+2. **Settings → Pages:** **Deploy from a branch** → branch **`gh-pages`** (the workflow publishes there).
 
-After pushing to `main`, wait for the **Deploy site** workflow, then a short **pages-build-deployment** run.
+Source lives on **`main`**; each push runs `.github/workflows/gh-pages.yml`.
 
-## Local preview
+## Hugo compatibility
 
-See [INSTALL.md](INSTALL.md) (Docker Compose is the smoothest path).
+This repo includes small **layout overrides** under `layouts/` (patched from Blowfish) so the site builds on current Hugo Extended (for example `LanguageCode` instead of removed `Locale`, and `site.Data` where the upstream theme still references `hugo.Data` in a few partials). When you update the `themes/blowfish` submodule, re-run a local `hugo` build and merge any upstream fixes into those overrides if templates drift.
+
+## Local
+
+Install [Hugo Extended](https://gohugo.io/installation/) (Blowfish needs extended for SCSS), **0.141+** (tested with **0.154.x**), then:
+
+```bash
+git submodule update --init --recursive
+hugo server
+```
+
+Theme path: `themes/blowfish` (git submodule). Update the theme with:
+
+```bash
+git submodule update --remote --merge themes/blowfish
+```

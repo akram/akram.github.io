@@ -1,0 +1,22 @@
+disabled = false
+locale = "en"
+label = "English"
+weight = 1
+title = "Akram"
+
+[params]
+  displayName = "EN"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "2 January 2006"
+  description = "Engineering notes, experiments, and things that compile (sometimes)."
+
+[params.author]
+  name = "Akram"
+  image = "img/avatar.jpg"
+  imageQuality = 96
+  headline = "Software engineer"
+  bio = "Short technical write-ups and experiments. Replace avatar in assets/img/avatar.jpg anytime."
+  links = [
+    { github = "https://github.com/akram" },
+  ]
