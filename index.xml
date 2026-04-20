@@ -1,1 +1,40 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hello on Akram</title><link>https://akram.github.io/</link><description>Recent content in Hello on Akram</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>© 2026 Akram</copyright><lastBuildDate>Mon, 20 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://akram.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Back to posting</title><link>https://akram.github.io/posts/2026-04-20-back-to-posting/</link><pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate><guid>https://akram.github.io/posts/2026-04-20-back-to-posting/</guid><description>After a long quiet stretch, I am picking the blog back up again—this time on Hugo with the Blowfish theme.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hello on Akram</title><link>https://akram.github.io/</link><description>Recent content in Hello on Akram</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>© 2026 Akram</copyright><lastBuildDate>Mon, 20 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://akram.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Back to posting</title><link>https://akram.github.io/posts/2026-04-20-back-to-posting/</link><pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate><guid>https://akram.github.io/posts/2026-04-20-back-to-posting/</guid><description>After a long quiet stretch, I am picking the blog back up again—this time on Hugo with the Blowfish theme.</description></item><item><title>About</title><link>https://akram.github.io/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://akram.github.io/about/</guid><description>&lt;p&gt;This site is where I publish notes and longer write-ups on software, systems, and tools I use day to day. Expect a mix of practical engineering detail, experiments that did not quite go to plan, and occasional commentary on how we build and run things.&lt;/p&gt;
+
+&lt;h3 class="relative group"&gt;About me
+ &lt;div id="about-me" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#about-me" aria-label="Anchor"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+&lt;p&gt;I am &lt;strong&gt;Akram&lt;/strong&gt;, a software engineer. I care about building reliable systems, clear interfaces between humans and machines, and writing that helps the next reader (including future me) move faster.&lt;/p&gt;
+&lt;p&gt;I work across the stack and spend a lot of time on cloud-native platforms, automation, and lately more &lt;strong&gt;AI-assisted engineering&lt;/strong&gt; and agent-style workflows in real codebases—not just demos.&lt;/p&gt;
+&lt;p&gt;For code and smaller experiments, I am usually on &lt;a href="https://github.com/akram" target="_blank" rel="noreferrer"&gt;GitHub&lt;/a&gt;. For professional background and endorsements, see &lt;a href="https://www.linkedin.com/in/akrambenaissi/" target="_blank" rel="noreferrer"&gt;LinkedIn&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 class="relative group"&gt;Contact
+ &lt;div id="contact" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#contact" aria-label="Anchor"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+&lt;p&gt;The easiest way to reach me for something public or technical is a GitHub issue or discussion on a relevant repository, or LinkedIn messages if that fits the context.&lt;/p&gt;
+&lt;p&gt;If you are reaching out about something sensitive, use LinkedIn or another channel we already share rather than posting personal details in comments.&lt;/p&gt;
+
+&lt;h3 class="relative group"&gt;Legal
+ &lt;div id="legal" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#legal" aria-label="Anchor"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Privacy:&lt;/strong&gt; This site is hosted on &lt;a href="https://pages.github.com/" target="_blank" rel="noreferrer"&gt;GitHub Pages&lt;/a&gt;. GitHub’s own privacy statement applies to hosting and traffic. I do not run first-party analytics on this domain; if that changes, this page will be updated.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; Unless a post or page says otherwise, original text on this site is licensed under &lt;a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noreferrer"&gt;CC BY 4.0&lt;/a&gt; (you may share and adapt with attribution). Code snippets may be treated as MIT-0 / public domain unless explicitly marked—when in doubt, ask.&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>
