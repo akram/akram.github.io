@@ -13,10 +13,10 @@ title = "Akram"
 
 [params.author]
   name = "Akram"
-  image = "img/avatar.jpg"
+  image = "img/avatar.png"
   imageQuality = 96
   headline = "Software engineer"
-  bio = "Short technical write-ups and experiments. Replace avatar in assets/img/avatar.jpg anytime."
+  bio = "Short technical write-ups and experiments."
   links = [
     { github = "https://github.com/akram" },
   ]
