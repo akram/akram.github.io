@@ -9,7 +9,7 @@ tags: ["systems", "philosophy", "AI", "networking"]
 
 **Note on authorship.** This article was drafted with the assistance of an AI system. The ideas and framing are the author’s; the model helped with structure and wording. The **prompt** used to generate this piece appears below verbatim.
 
-### Prompt
+{{< prompt >}}
 
 > write a blog post titled: "When the weight of civilizations beats system design"
 > mention first that the article is AI written, and give the prompt that I will give you here.
@@ -20,6 +20,8 @@ tags: ["systems", "philosophy", "AI", "networking"]
 > So, most to not say all of the issues that we are facing in today's complex AI + IT world have been solved and refined for centuries. TCP, HTTP and SMTP are the first things that came to my mind when I have seen the parallel in the begining of my carreer. TCP as protocol is built as language: a set of rule to communicate and not interutp, HTTP as a library and SMTP as a postoffice.
 >
 > AI Agents will not make an exception to that. So today that we are facing issues with Authentication and Access Control for Agents, I just want to have a look at what already exist
+
+{{< /prompt >}}
 
 ---
 

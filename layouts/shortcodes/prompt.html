@@ -1,0 +1,12 @@
+{{/* Native <details> toggle beside the Prompt h3; inner markdown (e.g. blockquote) unchanged. */}}
+<div class="prompt-section">
+  <div class="prompt-section__head">
+    <h3 id="prompt">{{ .Get "title" | default "Prompt" }}</h3>
+    <details class="prompt-section__details">
+      <summary class="prompt-section__summary">{{ .Get "label" | default "Show prompt" }}</summary>
+      <div class="prompt-section__body">
+        {{ strings.TrimSpace .Inner | .Page.RenderString }}
+      </div>
+    </details>
+  </div>
+</div>

@@ -9,10 +9,7 @@ tags: ["AI", "agents", "security", "identity", "governance", "systems"]
 
 **Note on authorship.** This article was drafted with the assistance of an AI system. The story, framing, and conclusions come from the author’s experience; the model helped with structure and wording. The **exact instructions** that produced this piece are in the collapsible section below.
 
-### Prompt
-
-<details>
-<summary>Show the full prompt used to generate this post</summary>
+{{< prompt >}}
 
 ````text
 write a blog post titled: "Power of Attorney Model: A civilizational approach for AI agent authentication, trust, delegation and revocation"
@@ -58,7 +55,7 @@ write the blog post extracting the idea and story telling of these informations,
 I want you this time to make the prompt to appear in a collapsible div that is collapsed by default.
 ````
 
-</details>
+{{< /prompt >}}
 
 ---
 
