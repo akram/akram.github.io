@@ -11,49 +11,43 @@ tags: ["AI", "agents", "security", "identity", "governance", "systems"]
 
 {{< prompt >}}
 
-````text
-write a blog post titled: "Power of Attorney Model: A civilizational approach for AI agent authentication, trust, delegation and revocation"
-
-mention first that the article is AI written, and give the prompt that I will give you here.
-
-Here is the thing: 
-I was working on kagenti authentication and access control for several weeks with the frustration to not fit in the box. Technical solutions were arising through different blog posts and linkedin sharing links, when I realize that there is probably no mature solution yet. The most informed people seemed to me Christian Posta with the AAuth proposal that I only read partially....too far; and maybe the kagent white paper that they have published; and the conclusion was: no solution yet.
-My colleagues at Red Hat and IBM were mostly working on JWT+SPIFFE+token exchange based solutions. But, again, that didn't fit.
-
-On a friday afternoon, my claude configure slack mcp who was supposed to only use my slack in readonly mode started to get rogue and wild, leading me to get banned from a slack channel. For some reason, it ignore the CONSTITUTION.md and wrote some logs on the chan.
-
-I started then to think about the problem in old fashioned way: How can clearly delegate  important actions to someone by ensuring he will not overpass these? That looked familiar to a model that most people know in any country: The Power of Attorney.  
-
-I reached out a colleague with the following message.
-
-
-```
-Hi Roland,
-
-TL;DR:
-I want to build a system for authentication and authorization delegation management for AI agents similar to the legal systems of Power of Attorneys for humans.
-
-Q1: Do you know if such a system exist?
-Q2: if not; is it worth proposing something like this? And working in implementing it ?
-
-Abstract:
-
-In real human life; if someone gives power of attorney (PoA) to someone else (parent, agent, lawyer, legal representant), that usually goes through well known authority. Persons go there, they sign the PoA, specify the scope and the Principal (the persons who delegates his/her power) trusts the Agent  and the Institutions and Services to honor this PoA within its defined Scope
-
-The Agent can betray or fraud the institutions or services, this is why, we usually have additional checks depending on the severity of the actions that the agent can perform and the potential legal impacts.
-
-Agents can work in  Agencies , a lawyer in a lawyer agency can delegate some of his assigned powers by a given Principal to his colleague or secretary.
-Principal can revoke a PoA
-The Agent always act on his identity and is identified as-is , but the scope of the actions and benefits returns to the Principal unless the Agent is being proven to have tried to fraud the system; or an external responsibility breach or complicity is revealed in an Operation or Transaction .
-
-Gatekeeper or Guardrails are in charge of checking PoAs and Scope . Any Service depending on its liability level must have a Gatekeeper or Guardrail that checks the PoA and the Scopes  . Checks can be quite simple, but for AI based services , Intent detection or comprehension is crucial and must be properly qualified. (edited)
-
-```
-
-write the blog post extracting the idea and story telling of these informations, remember to add the prompt on top, and then publish it into my github blog 
-
-I want you this time to make the prompt to appear in a collapsible div that is collapsed by default.
-````
+> write a blog post titled: "Power of Attorney Model: A civilizational approach for AI agent authentication, trust, delegation and revocation"
+>
+> mention first that the article is AI written, and give the prompt that I will give you here.
+>
+> Here is the thing:
+> I was working on kagenti authentication and access control for several weeks with the frustration to not fit in the box. Technical solutions were arising through different blog posts and linkedin sharing links, when I realize that there is probably no mature solution yet. The most informed people seemed to me Christian Posta with the AAuth proposal that I only read partially....too far; and maybe the kagent white paper that they have published; and the conclusion was: no solution yet.
+> My colleagues at Red Hat and IBM were mostly working on JWT+SPIFFE+token exchange based solutions. But, again, that didn't fit.
+>
+> On a friday afternoon, my claude configure slack mcp who was supposed to only use my slack in readonly mode started to get rogue and wild, leading me to get banned from a slack channel. For some reason, it ignore the CONSTITUTION.md and wrote some logs on the chan.
+>
+> I started then to think about the problem in old fashioned way: How can clearly delegate  important actions to someone by ensuring he will not overpass these? That looked familiar to a model that most people know in any country: The Power of Attorney.
+>
+> I reached out a colleague with the following message.
+>
+> Hi Roland,
+>
+> TL;DR:
+> I want to build a system for authentication and authorization delegation management for AI agents similar to the legal systems of Power of Attorneys for humans.
+>
+> Q1: Do you know if such a system exist?
+> Q2: if not; is it worth proposing something like this? And working in implementing it ?
+>
+> Abstract:
+>
+> In real human life; if someone gives power of attorney (PoA) to someone else (parent, agent, lawyer, legal representant), that usually goes through well known authority. Persons go there, they sign the PoA, specify the scope and the Principal (the persons who delegates his/her power) trusts the Agent  and the Institutions and Services to honor this PoA within its defined Scope
+>
+> The Agent can betray or fraud the institutions or services, this is why, we usually have additional checks depending on the severity of the actions that the agent can perform and the potential legal impacts.
+>
+> Agents can work in  Agencies , a lawyer in a lawyer agency can delegate some of his assigned powers by a given Principal to his colleague or secretary.
+> Principal can revoke a PoA
+> The Agent always act on his identity and is identified as-is , but the scope of the actions and benefits returns to the Principal unless the Agent is being proven to have tried to fraud the system; or an external responsibility breach or complicity is revealed in an Operation or Transaction .
+>
+> Gatekeeper or Guardrails are in charge of checking PoAs and Scope . Any Service depending on its liability level must have a Gatekeeper or Guardrail that checks the PoA and the Scopes  . Checks can be quite simple, but for AI based services , Intent detection or comprehension is crucial and must be properly qualified. (edited)
+>
+> write the blog post extracting the idea and story telling of these informations, remember to add the prompt on top, and then publish it into my github blog
+>
+> I want you this time to make the prompt to appear in a collapsible div that is collapsed by default.
 
 {{< /prompt >}}
 

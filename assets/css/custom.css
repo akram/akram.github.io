@@ -24,9 +24,16 @@ article .article-content :is(pre, figure, table, .highlight, .prompt-section) {
 .prompt-section__details {
   float: right;
   margin-bottom: 0.5rem;
+  width: auto;
+  max-width: 100%;
 }
 
-.prompt-section__summary {
+/* Prose themes often make <summary> block-level full width; keep the chip beside the h3. */
+article .article-content .prompt-section__summary {
+  display: inline-block;
+  width: auto;
+  max-width: 100%;
+  box-sizing: border-box;
   cursor: pointer;
   list-style: none;
   font-size: 0.875rem;
@@ -38,33 +45,30 @@ article .article-content :is(pre, figure, table, .highlight, .prompt-section) {
   color: rgb(38 38 38);
 }
 
-.dark .prompt-section__summary {
+.dark article .article-content .prompt-section__summary {
   border-color: rgb(82 82 82);
   background: rgb(64 64 64);
   color: rgb(245 245 245);
 }
 
-.prompt-section__summary::-webkit-details-marker {
+article .article-content .prompt-section__summary::-webkit-details-marker {
   display: none;
 }
 
-.prompt-section__summary::after {
+article .article-content .prompt-section__summary::after {
   content: " ▼";
   font-size: 0.7em;
   opacity: 0.85;
 }
 
-.prompt-section__details[open] .prompt-section__summary::after {
+article .article-content .prompt-section__details[open] .prompt-section__summary::after {
   content: " ▲";
 }
 
+/* ~120 character wrap width inside prompt; any nested pre still wraps. */
 .prompt-section__body {
   clear: both;
   padding-top: 0.25rem;
-}
-
-/* ~120 character wrap width inside prompt; long fenced blocks wrap. */
-.prompt-section__body {
   max-width: 120ch;
 }
 
