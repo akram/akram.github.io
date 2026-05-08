@@ -1,5 +1,5 @@
 ---
-title: "One afternoon without an AI assistant: running without stilts"
+title: "An Afternoon Without an AI Assistant: Running Without Stilts"
 description: "A short note on reviewing a Kueue-adjacent design from memory—and why going unassisted still feels electric."
 summary: "Yesterday I marked up a colleague’s refinement doc on the Spark operator and Kueue without reaching for docs. It felt like moving through rough terrain on my own feet again."
 date: 2026-05-08
