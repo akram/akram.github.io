@@ -20,9 +20,9 @@ tags: ["AI", "engineering", "kubernetes", "kueue", "meta", "productivity"]
 
 ---
 
-![Landes shepherds on stilts at a night festival — people in traditional dress on tall stilts](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Landes_shepherds_on_stilts.jpg/960px-Landes_shepherds_on_stilts.jpg)
+![Stilt walkers in red and white costumes, with balancing poles, performing on a cobbled street](/posts/2026-05-08-stilts/echasseurs-red-white.jpg)
 
-*Landes shepherds on stilts at a night festival in Mimizan, France (2002). [Cjp24](https://commons.wikimedia.org/wiki/File:Landes_shepherds_on_stilts.jpg), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.en).*
+*Photo supplied by the author (traditional stilt walkers in a cobbled street, festival crowd).*
 
 Yesterday I reviewed a colleague’s refinement document for the Spark operator and its integration with **Kueue**. I used to contribute to Kueue, so the moving parts were still *there*—not as a rehearsed script, but as intuition, scars, and a feel for where the machinery gets brittle.
 
